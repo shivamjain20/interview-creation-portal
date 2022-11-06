@@ -5,7 +5,7 @@ import { useHistory } from "react-router-dom";
 const InterviewList = () => {
   let [data, setData] = useState([]);
   useEffect(() => {
-    fetch("/allMeetings")
+    fetch("https://interview-creation-portal.onrender.com/allMeetings")
       .then((res) => res.json())
       .then((data) => {
         setData(data.meetings);

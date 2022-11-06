@@ -26,7 +26,7 @@ const Details = (props) => {
 
   useEffect(() => {
     if (props.function == "edit") {
-      fetch("/meetingDetail/" + props.meetingId)
+      fetch("https://interview-creation-portal.onrender.com/meetingDetail/" + props.meetingId)
         .then((res) => res.json())
         .then((data) => {
           data = data.meeting;
@@ -48,9 +48,9 @@ const Details = (props) => {
   const onCreateMeetingClickHandler = (e) => {
 
     e.preventDefault();
-    let path = "/" + props.function;
+    let path = "https://interview-creation-portal.onrender.com/" + props.function;
     if (props.meetingId !== undefined) {
-      path += "/" + props.meetingId;
+      path += "https://interview-creation-portal.onrender.com/" + props.meetingId;
     }
 
     fetch(path, {

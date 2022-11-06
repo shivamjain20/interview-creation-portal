@@ -1,0 +1,27 @@
+.main {
+  margin-top: 30px;
+}
+
+.table-header {
+  padding: 10px;
+  display: flex;
+  justify-content: space-evenly;
+  margin: 5px 0;
+  background-color: #535353;
+  color: #fff;
+  margin-top: 20px;
+}
+
+.heading {
+  font-weight: 600;
+}
+
+.table-rows {
+  padding: 10px;
+  display: flex;
+  justify-content: space-evenly;
+  margin: 2px 0;
+  background-color: #ccc;
+  color: #000;
+  cursor: pointer;
+}

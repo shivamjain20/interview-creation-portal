@@ -1,0 +1,21 @@
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  color: #fff;
+  background-color: black;
+  padding: 5px 10px;
+}
+
+.logo {
+  font-size: 2rem;
+}
+
+.options {
+  color: #fff;
+}
+
+.options > li:hover {
+  opacity: 0.8;
+}

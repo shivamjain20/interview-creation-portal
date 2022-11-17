@@ -75,7 +75,7 @@ function schedule(body,meetingId,res){
                         if(meetingId!=null && meetingId==meeting._id){
                             continue;
                         }
-                        if(startTime < meeting.endTime && meeting.startTime < startTime  && date.meeting===date){
+                        if(startTime < meeting.endTime && meeting.startTime < startTime){
                             user2Available=false;
                             break;
                         }
